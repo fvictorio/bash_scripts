@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Usage: ./pdf126.sh file.pdf NO_PAGES [NO_SLIDES_LAST_PAGE]
+
 dens=300
 filename=$(basename "$1")
 filename="${filename%.*}"
